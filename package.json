@@ -1,7 +1,7 @@
 {
     "name": "MapScreenr",
     "description": "A simple container for Map attributes given by switching to an Area within that map.",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "author": {
         "name": "Josh Goldberg",
         "email": "josh@fullscreenmario.com"

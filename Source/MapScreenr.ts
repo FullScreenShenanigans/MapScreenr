@@ -141,7 +141,7 @@ class MapScreenr {
     setVariables(): void {
         for (var i in this.variables) {
             if (this.variables.hasOwnProperty(i)) {
-                self[i] = this.variables[i].apply(this, this.variableArgs);
+                this[i] = this.variables[i].apply(this, this.variableArgs);
             }
         }
     }
