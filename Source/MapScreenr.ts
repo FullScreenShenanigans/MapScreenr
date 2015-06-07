@@ -110,7 +110,9 @@ module MapScreenr {
          * values.
          */
         setVariables(): void {
-            for (var i in this.variables) {
+            var i: string;
+
+            for (i in this.variables) {
                 if (this.variables.hasOwnProperty(i)) {
                     this[i] = this.variables[i].apply(this, this.variableArgs);
                 }
