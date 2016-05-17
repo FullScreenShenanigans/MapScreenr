@@ -18,7 +18,7 @@ gulp.task("tsc", () => {
     return tsProject
         .src()
         .pipe(ts(tsProject))
-        .js.pipe(gulp.dest("."));
+        .js.pipe(gulp.dest("src"));
 });
 
 gulp.task("test", () => {
